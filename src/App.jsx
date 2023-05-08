@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       {tweetsArray.map((arrayIndex) => (
-        <Tweet key={arrayIndex.toString()} />
+        <Tweet tweet={arrayIndex} />
       ))}
       ;
     </div>
